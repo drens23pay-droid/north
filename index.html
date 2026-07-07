@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>North Perú Tours | Los Órganos - Perú</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#inicio" class="logo">
+      <img src="assets/logo.png" alt="North Perú Tours" class="logo__img">
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#inicio">Inicio</a>
+      <a href="#tours">Tours</a>
+      <a href="#proyecto">Proyecto Olaya</a>
+      <a href="#galeria">Galería</a>
+      <a href="#faq">Preguntas</a>
+      <a href="#contacto" class="nav__cta">Reservar</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="inicio">
+  <div class="hero__slide"><img src="assets/gallery4.webp" alt="Atardecer en el mar de Los Órganos" id="heroImg"></div>
+  <div class="hero__overlay"></div>
+  <div class="container hero__content">
+    <p class="eyebrow">LOS ÓRGANOS · PIURA · PERÚ</p>
+    <h1>Vive el Pacífico Norte<br>como nunca antes</h1>
+    <p class="hero__sub">Avistamiento de ballenas jorobadas, nado responsable con tortugas marinas, aventura en velero y Yakupark. Turismo marino responsable en Los Órganos.</p>
+    <div class="hero__actions">
+      <a href="#tours" class="btn btn--primary">Descubre tu aventura</a>
+      <a href="https://wa.me/51999999999" class="btn btn--whatsapp" target="_blank">Reservar por WhatsApp</a>
+    </div>
+  </div>
+  <div class="hero__scroll">↓</div>
+</section>
+
+<!-- WHATSAPP FLOTANTE -->
+<a href="https://wa.me/51999999999" class="wa-float" target="_blank" aria-label="WhatsApp">
+  <svg viewBox="0 0 32 32" width="30" height="30" fill="#fff"><path d="M16 0C7.2 0 .1 7.1.1 15.9c0 2.8.7 5.5 2.1 7.9L0 32l8.4-2.2c2.3 1.3 4.9 1.9 7.6 1.9 8.8 0 15.9-7.1 15.9-15.9C31.9 7.1 24.8 0 16 0zm0 29.1c-2.4 0-4.7-.6-6.8-1.9l-.5-.3-5 1.3 1.3-4.9-.3-.5C3.2 21 2.5 18.5 2.5 15.9 2.5 8.4 8.5 2.4 16 2.4s13.5 6 13.5 13.5S23.5 29.1 16 29.1z"/><path d="M23.1 19.1c-.4-.2-2.3-1.1-2.6-1.3-.4-.1-.6-.2-.9.2-.3.4-1 1.3-1.2 1.5-.2.2-.4.3-.8.1-.4-.2-1.6-.6-3-1.9-1.1-1-1.9-2.2-2.1-2.6-.2-.4 0-.6.2-.8.2-.2.4-.4.5-.6.2-.2.2-.4.4-.6.1-.2.1-.5 0-.7-.1-.2-.9-2.2-1.2-3-.3-.8-.6-.6-.9-.7h-.7c-.2 0-.6.1-.9.5-.3.4-1.2 1.1-1.2 2.8s1.2 3.3 1.4 3.5c.2.2 2.4 3.7 5.9 5.1.8.3 1.5.6 2 .7.8.3 1.6.2 2.2.1.7-.1 2.3-.9 2.6-1.9.3-.9.3-1.7.2-1.9-.1-.1-.3-.2-.7-.4z"/></svg>
+</a>
+
+<!-- INTRO -->
+<section class="intro container" data-reveal>
+  <p class="eyebrow center">NORTH PERÚ TOURS</p>
+  <h2 class="center">Turismo responsable en alta mar</h2>
+  <p class="intro__text center">
+    En North Perú Tours tenemos el gran reto de invitarte a vivir la experiencia de descubrir
+    Los Órganos y su increíble fauna marina realizando un turismo responsable. El avistamiento
+    de ballenas jorobadas y otros cetáceos, el nado responsable con tortugas, el buceo y la
+    pesca son nuestros principales tours donde nuestros viajeros disfrutarán de una aventura
+    única en alta mar.
+  </p>
+</section>
+
+<!-- TOURS -->
+<section class="tours container" id="tours">
+  <p class="eyebrow center">DESCUBRE TU AVENTURA</p>
+  <h2 class="center">Nuestros tours</h2>
+
+  <div class="tours__grid">
+    <article class="tour-card" data-reveal data-tour="ballenas">
+      <div class="tour-card__img"><img src="assets/ballenas.jpg" alt="Avistamiento de ballenas"></div>
+      <div class="tour-card__body">
+        <span class="tour-card__badge">Jul - Oct</span>
+        <h3>Avistamiento de Ballenas</h3>
+        <p>Observa a las ballenas jorobadas y sus crías en su hábitat natural.</p>
+        <div class="tour-card__price">Desde S/ 120 <span>por persona</span></div>
+        <button type="button" class="tour-card__link">Ver detalles →</button>
+      </div>
+    </article>
+
+    <article class="tour-card" data-reveal data-delay="1" data-tour="tortugas">
+      <div class="tour-card__img"><img src="assets/tortugas.jpg" alt="Nado con tortugas"></div>
+      <div class="tour-card__body">
+        <span class="tour-card__badge">Todo el año</span>
+        <h3>Nado con Tortugas</h3>
+        <p>Nado responsable junto a tortugas marinas cerca del muelle artesanal.</p>
+        <div class="tour-card__price">Desde S/ 40 <span>por persona</span></div>
+        <button type="button" class="tour-card__link">Ver detalles →</button>
+      </div>
+    </article>
+
+    <article class="tour-card" data-reveal data-delay="2" data-tour="yakupark">
+      <div class="tour-card__img"><img src="assets/gallery6.jpeg" alt="Aventura Yakupark"></div>
+      <div class="tour-card__body">
+        <span class="tour-card__badge">Familiar</span>
+        <h3>Aventura Yakupark</h3>
+        <p>Parque acuático inflable en el mar. Diversión para toda la familia.</p>
+        <div class="tour-card__price">Consultar precio</div>
+        <button type="button" class="tour-card__link">Ver detalles →</button>
+      </div>
+    </article>
+
+    <article class="tour-card" data-reveal data-delay="3" data-tour="velero">
+      <div class="tour-card__img"><img src="assets/velero.jpg" alt="Aventura en velero"></div>
+      <div class="tour-card__body">
+        <span class="tour-card__badge">Atardecer</span>
+        <h3>Aventura en Velero</h3>
+        <p>Navega la costa de Los Órganos disfrutando de la puesta de sol.</p>
+        <div class="tour-card__price">Consultar precio</div>
+        <button type="button" class="tour-card__link">Ver detalles →</button>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- COMO FUNCIONA -->
+<section class="steps">
+  <div class="container">
+    <p class="eyebrow center light">RESERVAR ES FÁCIL</p>
+    <h2 class="center light">Cómo funciona</h2>
+    <div class="steps__route" data-reveal>
+      <svg class="steps__path" viewBox="0 0 1000 90" preserveAspectRatio="none">
+        <path pathLength="100" d="M125,68 C230,10 270,10 375,20 C480,30 520,98 625,68 C730,38 770,-6 875,20"/>
+      </svg>
+    </div>
+    <div class="steps__grid">
+      <div class="step" data-reveal>
+        <div class="step__num" data-num="1">
+          <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="9"/><polygon points="15,9 13,13 9,15 11,11"/>
+          </svg>
+        </div>
+        <h4>Elige tu tour</h4>
+        <p>Explora nuestras aventuras y elige la experiencia ideal para ti.</p>
+      </div>
+      <div class="step" data-reveal data-delay="1">
+        <div class="step__num" data-num="2">
+          <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 11.5a8.5 8.5 0 0 1-12.4 7.5L3 20l1.1-5.3A8.5 8.5 0 1 1 21 11.5Z"/>
+          </svg>
+        </div>
+        <h4>Reserva por WhatsApp</h4>
+        <p>Escríbenos y coordina fecha, horario y número de personas.</p>
+      </div>
+      <div class="step" data-reveal data-delay="2">
+        <div class="step__num" data-num="3">
+          <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.5 2.5L16 9"/>
+          </svg>
+        </div>
+        <h4>Confirmación</h4>
+        <p>Recibe la confirmación con todos los detalles del embarque.</p>
+      </div>
+      <div class="step" data-reveal data-delay="3">
+        <div class="step__num" data-num="4">
+          <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 17c1.8 1.8 3.6 1.8 5.4 0s3.6-1.8 5.4 0 3.6 1.8 5.4 0"/>
+            <path d="M3 12c1.8 1.8 3.6 1.8 5.4 0s3.6-1.8 5.4 0 3.6 1.8 5.4 0"/>
+            <circle cx="12" cy="6" r="2"/>
+          </svg>
+        </div>
+        <h4>Vive la experiencia</h4>
+        <p>Preséntate en el muelle de Los Órganos y disfruta el tour.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PARALLAX BANNER -->
+<section class="parallax-banner" style="background-image:url('assets/gallery3.webp')">
+  <div class="parallax-banner__overlay"></div>
+  <div class="container parallax-banner__content" data-reveal>
+    <p class="eyebrow light">NORTH PERÚ TOURS</p>
+    <h3>Cada ola cuenta una historia.<br>Ven a vivir la tuya.</h3>
+  </div>
+</section>
+
+<!-- PROYECTO OLAYA -->
+<section class="proyecto container" id="proyecto">
+  <div class="proyecto__img" data-reveal><img src="assets/proyecto.jpg" alt="Equipo North Perú Tours"></div>
+  <div class="proyecto__text" data-reveal data-delay="1">
+    <p class="eyebrow">SURF LIFE SAVING PERÚ</p>
+    <h2>Proyecto Olaya</h2>
+    <p>
+      North Perú Tours impulsa el Proyecto Olaya junto a Surf Life Saving Perú, promoviendo
+      la seguridad acuática y el cuidado del ecosistema marino de Los Órganos. Cada tour que
+      realizas contribuye a la protección de la fauna marina y a la formación de guardavidas
+      locales.
+    </p>
+    <p>
+      El proyecto nació de la necesidad de contar con guardavidas capacitados en las playas
+      de Los Órganos. Hoy, gracias al aporte de nuestros viajeros, jóvenes de la comunidad
+      reciben formación certificada en salvamento acuático, primeros auxilios y cuidado del
+      ecosistema marino — devolviéndole a la caleta parte de lo que el mar le da a nuestros
+      visitantes cada día.
+    </p>
+    <a href="#" class="btn btn--outline">Conoce el proyecto</a>
+  </div>
+</section>
+
+<!-- GALERIA -->
+<section class="galeria container" id="galeria">
+  <p class="eyebrow center">GALERÍA</p>
+  <h2 class="center">Momentos North Perú</h2>
+  <div class="galeria__grid" id="galeriaGrid">
+    <div class="g-item" data-reveal><img src="assets/gallery1.webp" alt="North Perú Tours"></div>
+    <div class="g-item" data-reveal data-delay="1"><img src="assets/gallery2.webp" alt="North Perú Tours"></div>
+    <div class="g-item" data-reveal data-delay="2"><img src="assets/gallery3.webp" alt="North Perú Tours"></div>
+    <div class="g-item" data-reveal><img src="assets/gallery4.webp" alt="North Perú Tours"></div>
+    <div class="g-item" data-reveal data-delay="1"><img src="assets/gallery5.webp" alt="North Perú Tours"></div>
+    <div class="g-item" data-reveal data-delay="2"><img src="assets/gallery6.jpeg" alt="North Perú Tours"></div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq container" id="faq">
+  <p class="eyebrow center">PREGUNTAS FRECUENTES</p>
+  <h2 class="center">¿Tienes dudas?</h2>
+  <div class="faq__list">
+    <details class="faq__item" open>
+      <summary>¿Con cuánto tiempo debo reservar?</summary>
+      <p>En temporada alta (fiestas patrias y vacaciones de medio año) recomendamos reservar con 72 horas de anticipación.</p>
+    </details>
+    <details class="faq__item">
+      <summary>¿Cuál es la política de cancelación?</summary>
+      <p>Cancelación gratuita hasta 24 horas antes de la actividad. Pasado ese plazo no se realizan reembolsos.</p>
+    </details>
+    <details class="faq__item">
+      <summary>¿Qué debo llevar al tour?</summary>
+      <p>Zapatillas para ingresar al muelle, tomatodo con agua, bloqueador solar, lentes y casaca cortaviento. No se permite equipaje, solo una mochila pequeña.</p>
+    </details>
+    <details class="faq__item">
+      <summary>¿Los niños pueden participar?</summary>
+      <p>Depende del tour. En nado con tortugas los menores de 5 años no pagan pero deben ir sobre las rodillas de un adulto. El avistamiento de ballenas no es apto para menores de 5 años.</p>
+    </details>
+  </div>
+</section>
+
+<!-- CONTACTO / FOOTER -->
+<footer class="footer" id="contacto">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <img src="assets/logo.png" alt="North Perú Tours" class="footer__logo-img">
+      <p>Muelle de Los Órganos, Piura - Perú</p>
+    </div>
+    <div class="footer__cta">
+      <p>¿Listo para vivir la aventura?</p>
+      <a href="https://wa.me/51999999999" class="btn btn--whatsapp" target="_blank">Reservar por WhatsApp</a>
+    </div>
+  </div>
+  <div class="footer__bottom container">
+    <span>© 2026 North Perú Tours. Todos los derechos reservados.</span>
+    <span class="footer__mock">— MOCKUP DE DISEÑO, fotos de referencia —</span>
+  </div>
+</footer>
+
+<!-- MODAL DETALLE DE TOUR -->
+<div class="modal" id="tourModal">
+  <div class="modal__backdrop" id="modalBackdrop"></div>
+  <div class="modal__panel">
+    <button class="modal__close" id="modalClose" aria-label="Cerrar">✕</button>
+    <div class="modal__img"><img id="modalImg" src="" alt=""></div>
+    <div class="modal__body">
+      <span class="tour-card__badge" id="modalBadge"></span>
+      <h3 id="modalTitle"></h3>
+      <p id="modalDesc"></p>
+      <h4>El tour incluye</h4>
+      <ul id="modalIncludes"></ul>
+      <div class="modal__prices">
+        <div><span>Tour compartido</span><b id="modalPriceShared"></b></div>
+        <div><span>Tour privado</span><b id="modalPricePrivate"></b></div>
+      </div>
+      <a href="https://wa.me/51999999999" class="btn btn--whatsapp" target="_blank">Reservar por WhatsApp</a>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
